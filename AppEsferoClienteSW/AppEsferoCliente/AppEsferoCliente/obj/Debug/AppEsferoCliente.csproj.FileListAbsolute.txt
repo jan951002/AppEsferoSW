@@ -1,0 +1,14 @@
+C:\Users\jatru\Desktop\AppEsferoSW\AppEsferoClienteSW\AppEsferoCliente\AppEsferoCliente\bin\Debug\AppEsferoCliente.exe.config
+C:\Users\jatru\Desktop\AppEsferoSW\AppEsferoClienteSW\AppEsferoCliente\AppEsferoCliente\bin\Debug\AppEsferoCliente.exe
+C:\Users\jatru\Desktop\AppEsferoSW\AppEsferoClienteSW\AppEsferoCliente\AppEsferoCliente\bin\Debug\AppEsferoCliente.pdb
+C:\Users\jatru\Desktop\AppEsferoSW\AppEsferoClienteSW\AppEsferoCliente\AppEsferoCliente\obj\Debug\AppEsferoCliente.Form1.resources
+C:\Users\jatru\Desktop\AppEsferoSW\AppEsferoClienteSW\AppEsferoCliente\AppEsferoCliente\obj\Debug\AppEsferoCliente.Properties.Resources.resources
+C:\Users\jatru\Desktop\AppEsferoSW\AppEsferoClienteSW\AppEsferoCliente\AppEsferoCliente\obj\Debug\AppEsferoCliente.vista.GUIActualizar.resources
+C:\Users\jatru\Desktop\AppEsferoSW\AppEsferoClienteSW\AppEsferoCliente\AppEsferoCliente\obj\Debug\AppEsferoCliente.vista.GUIConsultar.resources
+C:\Users\jatru\Desktop\AppEsferoSW\AppEsferoClienteSW\AppEsferoCliente\AppEsferoCliente\obj\Debug\AppEsferoCliente.vista.GUIEliminar.resources
+C:\Users\jatru\Desktop\AppEsferoSW\AppEsferoClienteSW\AppEsferoCliente\AppEsferoCliente\obj\Debug\AppEsferoCliente.vista.GUIInsertar.resources
+C:\Users\jatru\Desktop\AppEsferoSW\AppEsferoClienteSW\AppEsferoCliente\AppEsferoCliente\obj\Debug\AppEsferoCliente.csproj.GenerateResource.Cache
+C:\Users\jatru\Desktop\AppEsferoSW\AppEsferoClienteSW\AppEsferoCliente\AppEsferoCliente\obj\Debug\AppEsferoCliente.exe
+C:\Users\jatru\Desktop\AppEsferoSW\AppEsferoClienteSW\AppEsferoCliente\AppEsferoCliente\obj\Debug\AppEsferoCliente.pdb
+C:\Users\jatru\Desktop\AppEsferoSW\AppEsferoClienteSW\AppEsferoCliente\AppEsferoCliente\obj\Debug\AppEsferoCliente.csprojResolveAssemblyReference.cache
+C:\Users\jatru\Desktop\AppEsferoSW\AppEsferoClienteSW\AppEsferoCliente\AppEsferoCliente\obj\Debug\AppEsferoCliente.vista.GUIListar.resources

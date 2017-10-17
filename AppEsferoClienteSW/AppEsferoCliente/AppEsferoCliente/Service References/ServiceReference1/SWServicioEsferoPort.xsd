@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" targetNamespace="http://tempuri.org/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="actualizar" type="tns:actualizar" />
+  <xs:element name="actualizarResponse" type="tns:actualizarResponse" />
+  <xs:element name="agregarObservador" type="tns:agregarObservador" />
+  <xs:element name="consultar" type="tns:consultar" />
+  <xs:element name="consultarResponse" type="tns:consultarResponse" />
+  <xs:element name="eliminar" type="tns:eliminar" />
+  <xs:element name="eliminarResponse" type="tns:eliminarResponse" />
+  <xs:element name="insertar" type="tns:insertar" />
+  <xs:element name="insertarResponse" type="tns:insertarResponse" />
+  <xs:element name="listar" type="tns:listar" />
+  <xs:element name="listarResponse" type="tns:listarResponse" />
+  <xs:element name="notificarObservadores" type="tns:notificarObservadores" />
+  <xs:complexType name="actualizar">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="tns:esfero" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="esfero">
+    <xs:sequence>
+      <xs:element name="codigo" type="xs:int" />
+      <xs:element minOccurs="0" name="colorTinta" type="xs:string" />
+      <xs:element minOccurs="0" name="marca" type="xs:string" />
+      <xs:element name="precio" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="actualizarResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="insertar">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="tns:esfero" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="insertarResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="notificarObservadores">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="agregarObservador">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="tns:aActualizableEsfero" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="aActualizableEsfero" abstract="true">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="eliminar">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="eliminarResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="listar">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="listarResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:esfero" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="consultar">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="consultarResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:esfero" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
